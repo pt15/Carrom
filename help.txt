@@ -1,0 +1,39 @@
+IIIT-Hyderabad
+Swati Dewan
+201356246
+
+=================================================================
+Game:
+
+	Welcome to my version of carrom. Unlike other verions its a single player game. The setup contains 19 coins placed in the middle initially (9 black coins, 9 white coins and 1 queen)
+	Rules:
+		=> You start with 30 points initially.
+		=> You score +10 points for every black coin you pot.
+		=> You score -5 points for every white coin you pot.
+		=> You score +50 points if you pot the queen.
+		=> There is a -1 point penalty every 3 seconds the striker is idle.
+		=> You win if your score goes above 125
+		=> Game Over! if your score goes below zero or all the black coins have been potted and your score is below 120
+=================================================================
+Instructions:
+
+A)Keyboard
+	1)left and right arrow keys to move the striker.
+	2)up and down arrow keys to set power of the striker.
+	3)'a' and 'c' keys t set angle.
+		- 'a' is for aniclockwise rotation.
+		- 'c' is for clockwise rotation.
+	4)space to shoot the striker.
+	5)'r' to reset the striker on the lower line for next strike.(auto reinitialisation also implemented).
+B)Mouse
+	1)Click(left mouse button) on the striker anywhere and drag in desired direction to set power and give direction to the striker.
+	2)Release to shoot.
+=================================================================
+Some extra features:
+	
+	=> Colllisions take mass into consideration.
+	=> There is a separate dock for white coins and black coins, each with a 7 segment display to show the count.
+	=> There is a time feed just below the carrom board on the screen to give you present date, day and time.
+	=> Variables like striker's or coin's mass and radius, friction are flexible.
+	=> power and angle for the striker can be set both via mouse and keyboard.
+=================================================================
